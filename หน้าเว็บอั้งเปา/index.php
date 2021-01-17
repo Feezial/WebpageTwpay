@@ -19,7 +19,7 @@
     include 'system/giftcodetruewallet.class.php';
     $class = new twgiftcode;
     if (isset($_POST['link'])) {
-        $api = $class->redeem('0653483348', $_POST['link']);
+        $api = $class->redeem('0999999999', $_POST['link']);
     }
 
 
